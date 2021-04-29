@@ -1,0 +1,11 @@
+.register-form-section {
+    box-shadow: 0px 1px 3px rgb(0, 0, 0, 0.24);
+    padding: 1rem;
+}
+
+.register-form-section h1 {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    border-bottom: 1px groove #fff;
+}
+

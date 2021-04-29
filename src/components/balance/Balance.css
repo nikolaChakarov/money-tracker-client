@@ -1,0 +1,36 @@
+
+.balance h3 {
+    font-weight: 400;
+}
+
+.balance h1 {
+    font-size: 3rem;
+}
+
+.balance .data {
+    display: flex;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.24);
+    padding: 1rem;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-weight: 700;
+}
+
+.data p {
+    flex: 1;
+}
+
+.data p:first-child {
+    border-right: 1px groove #fff;
+}
+
+.income-span {
+    color: green;
+    font-size: 2rem;
+}
+
+.expence-span {
+    color: red;
+    font-size: 2rem;
+}

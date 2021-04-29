@@ -1,0 +1,37 @@
+.home {
+    position: relative;
+    height: 83vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.video-container video {
+    position: absolute;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -10;
+}
+
+.home h1 {
+    color: #fff;
+    font-size: 30rem;
+    font-weight: bold;
+}
+
+.video-container::after {
+    content: '';
+    position: absolute;
+    top: 20px;
+    left: 10px;
+    width: 80%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+

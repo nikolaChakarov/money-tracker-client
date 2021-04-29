@@ -1,38 +1,65 @@
-.App {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+html {
+  font-size: 62.5%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  font-size: 1.6rem;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.wrapper {
+  max-width: 60vw;
+  margin: 1rem auto;
+  padding: 0.5rem;
+}
+
+.form {
+  max-width: 80%;
+  margin: 0 auto;
+  background-color: rgb(0, 0, 0, 0.03);
+  padding: 1rem;
+}
+
+.form div {
+  margin: 1rem 0;
+  padding: 1rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-between;
 }
 
-.App-link {
-  color: #61dafb;
+.form div input {
+  flex: 1;
+  margin-left: 1rem;
+  padding: 0.5rem;
+  color: #333;
+  border: 1px groove #fff;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.btn {
+  background-color: rgb(51, 51, 51);
+  color: #fff;
+  border: 1px groove #fff;
+  padding: 0.5rem 1rem;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #fff;
+  color:rgb(33, 82, 82)
 }

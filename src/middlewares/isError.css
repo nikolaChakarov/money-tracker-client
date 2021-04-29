@@ -1,0 +1,8 @@
+.error-div span{
+    background-color: red;
+    color: #fff;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    padding: 0.5rem;
+}

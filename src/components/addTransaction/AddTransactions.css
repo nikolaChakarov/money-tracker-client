@@ -1,0 +1,11 @@
+.add-transactions h3 {
+    margin-bottom: 1rem;
+    border-bottom: 1px groove #fff;
+    font-weight: 400;
+}
+
+.add-transactions p {
+    text-align: right;
+    margin: -1rem 0 1rem;
+    color: #b8b8b8;
+}
